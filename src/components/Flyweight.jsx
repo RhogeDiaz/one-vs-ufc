@@ -144,7 +144,7 @@ const Flyweight = () => {
                                 <p className="text-center text-white mt-3">Rank: {fighter.rank}</p>
                                 <p className="text-center text-white">Age: {fighter.age}</p>
                                 <p className="text-center text-white">Country: {fighter.country}</p>
-                                <button onClick={() => voteONE(fighter.name)} className='border-white self-center py-1 px-10 m-4 rounded-lg font-bold'>{fighter.bets}</button>
+                                <button onClick={() => voteONE(fighter.name)} className='bg-white self-center py-1 px-10 m-4 rounded-lg font-bold'>{fighter.bets}</button>
                             </div>
                         )
                     ))}
@@ -165,7 +165,7 @@ const Flyweight = () => {
                                 <p className="text-center text-white mt-3">Rank: {fighter.rank}</p>
                                 <p className="text-center text-white">Age: {fighter.age}</p>
                                 <p className="text-center text-white">Country: {fighter.country}</p>
-                                <button onClick={() => voteUFC(fighter.name)} className='border-white self-center py-1 px-10 m-4 rounded-lg font-bold'>{fighter.bets}</button>
+                                <button onClick={() => voteUFC(fighter.name)} className='bg-white self-center py-1 px-10 m-4 rounded-lg font-bold'>{fighter.bets}</button>
                             </div>
                         )
                     ))}
