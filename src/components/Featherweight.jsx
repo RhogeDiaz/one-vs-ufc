@@ -137,10 +137,10 @@ const Featherweight = () => {
                 <div className="flex flex-col gap-4">
                     {featherONE.map((fighter) => (
                         fighter && (
-                            <div className="flex flex-col w-48 bg-black" key={fighter.name}>
+                            <div className="flex flex-col md:w-48 min-h-96 max-w-40 bg-black" key={fighter.name}>
                                 < img className="aspect-square" src={fighter.image} alt="" />
-                                <p className="text-center text-white font-bold mt-3">{fighter.name.toUpperCase()}</p>
-                                <p className="text-center text-white mt-3">"{fighter.nickname.toUpperCase()}"</p>
+                                <p className="text-center text-white font-bold mt-4">{fighter.name.toUpperCase()}</p>
+                                <p className="text-center hidden md:block text-white mt-3">"{fighter.nickname.toUpperCase()}"</p>
                                 <p className="text-center text-white mt-3">Rank: {fighter.rank}</p>
                                 <p className="text-center text-white">Age: {fighter.age}</p>
                                 <p className="text-center text-white">Country: {fighter.country}</p>
@@ -158,10 +158,10 @@ const Featherweight = () => {
                 <div className="flex flex-col gap-4">
                     {featherUFC.map((fighter) => (
                         fighter && (
-                            <div className="flex flex-col w-48 bg-black" key={fighter.name}>
-                                < img className="bg-black aspect-square object-cover object-top" src={fighter.image} alt="" />
-                                <p className="text-center text-white font-bold mt-3">{fighter.name.toUpperCase()}</p>
-                                <p className="text-center text-white mt-3">"{fighter.nickname}"</p>
+                            <div className="flex flex-col md:w-48 h-96 md:h-full max-w-40 bg-black" key={fighter.name}>
+                                <img className="bg-black aspect-square object-cover object-top" src={fighter.image} alt="" />
+                                <p className="text-center text-white font-bold mt-4">{fighter.name.toUpperCase()}</p>
+                                <p className="text-center hidden md:block text-white mt-3">"{fighter.nickname}"</p>
                                 <p className="text-center text-white mt-3">Rank: {fighter.rank}</p>
                                 <p className="text-center text-white">Age: {fighter.age}</p>
                                 <p className="text-center text-white">Country: {fighter.country}</p>

@@ -12,8 +12,8 @@ const Home = () => {
                 <img src="./src/images/UFC.png" alt="" />
             </div> */}
             <Flyweight />
-            <Bantamweight />
             <Featherweight />
+            <Bantamweight />
         </div>
     )
 }
