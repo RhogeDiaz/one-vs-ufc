@@ -123,9 +123,9 @@ const Bantamweight = () => {
         <main className="flex flex-col items-center" >
             {/* header */}
             <div className='w-full flex justify-evenly items-center my-8'>
-                <img src="./src/images/ONE.png" alt="" />
+                <img src="./images/ONE.png" alt="" />
                 <h1 className=' font-bold text-2xl'>VS</h1>
-                <img src="./src/images/UFC.png" alt="" />
+                <img src="./images/UFC.png" alt="" />
             </div>
             <h1 className="font-bold text-2xl p-4">BANTAMWEIGHT</h1>
             <div className="flex justify-around gap-56">
